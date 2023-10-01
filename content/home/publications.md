@@ -7,9 +7,9 @@ widget: collection
 headless: true
 
 # Order that this section appears on the page.
-weight: 50
+weight: 60
 
-title: Recent Publications
+title: Selected Publications
 subtitle: ''
 
 content:
