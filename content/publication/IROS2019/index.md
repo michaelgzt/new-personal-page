@@ -1,5 +1,5 @@
 ---
-title: 'Spiking neural network on neuromorphic hardware for energy-efficient unidimensional SLAM'
+title: 'Spiking neural network on neuromorphic hardware for energy efficient unidimensional SLAM'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
