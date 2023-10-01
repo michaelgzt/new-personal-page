@@ -1,12 +1,13 @@
 ---
-title: 'Spiking neural network on neuromorphic hardware for energy-efficient unidimensional SLAM'
+title: 'A Spiking Neural Network Mimics the Oculomotor System to Control a Biomimetic Robotic Head without Learning on a Neuromorphic Hardware'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
+  - Ioannis Polykretis
   - admin
-  - Arpit Shah
+  - Praveenram Balachandar
   - Konstantinos Michmizos
 
 # Author notes (optional)
@@ -14,8 +15,8 @@ authors:
 #   - 'Equal contribution'
 #   - 'Equal contribution'
 
-date: '2019-11-03T00:00:00Z'
-doi: 'https://doi.org/10.1109/IROS40897.2019.8967864'
+date: '2022-02-28T00:00:00Z'
+doi: 'https://doi.org/10.1109/TMRB.2022.3155278'
 
 # Schedule page publish date (NOT publication's date).
 publishDate: '2017-01-01T00:00:00Z'
@@ -24,13 +25,13 @@ publishDate: '2017-01-01T00:00:00Z'
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ['1']
+publication_types: ['2']
 
 # Publication name and optional abbreviated publication name.
-publication: In *2019 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)*
-publication_short: In *IROS 2019*
+publication: In *IEEE Transactions on Medical Robotics and Bionics*
+publication_short: In *TMRB*
 
-abstract: Energy-efficient simultaneous localization and mapping (SLAM) is crucial for mobile robots exploring unknown environments. The mammalian brain solves SLAM via a network of specialized neurons, exhibiting asynchronous computations and event-based communications, with very low energy consumption. We propose a brain-inspired spiking neural network (SNN) architecture that solves the unidimensional SLAM by introducing spike-based reference frame transformation, visual likelihood computation, and Bayesian inference. We integrated our neuromorphic algorithm to Intel's Loihi neuromorphic processor, a non-Von Neumann hardware that mimics the brain's computing paradigms. We performed comparative analyses for accuracy and energy-efficiency between our neuromorphic approach and the GMapping algorithm, which is widely used in small environments. Our Loihi-based SNN architecture consumes 100 times less energy than GMapping run on a CPU while having comparable accuracy in head direction localization and map-generation. These results pave the way for scaling our approach towards active-SLAM alternative solutions for Loihi-controlled autonomous robots.
+abstract: Facilitated by the emergence of neuromorphic hardware, neuromorphic algorithms mimic the brain’s asynchronous computation to improve energy efficiency, low latency, and robustness, which are crucial for a wide variety of real-time robotic applications. However, the limited on-chip learning abilities hinder the applicability of neuromorphic computing to real-world robotic tasks. Biomimetism can overcome this limitation by complementing or replacing training with the knowledge of the brain’s connectome associated with the targeted behavior. By drawing inspiration from the human oculomotor network, we designed a spiking neural network (SNN) that tracked visual targets in real-time. We deployed the biomimetic controller on Intel’s Loihi neuromorphic processor to control an in-house robotic head. The robot’s behavior resembled the smooth pursuit and saccadic eye movements observed in humans, while the SNN on Loihi exhibited similar performance to a CPU-run PID controller. Interestingly, this behavior emerged from the SNN without training, which places the biomimetic design as an alternative to the energy- and data-greedy learning-based methods. This work reinforces our on-going efforts to devise energy-efficient autonomous robots that mimic the robustness and versatility of their biological counterparts.
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -45,8 +46,8 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://arxiv.org/pdf/1903.02504.pdf'
-url_code: ''
+url_pdf: ''
+url_code: 'https://github.com/combra-lab/spiking-oculomotor-head-control'
 url_dataset: ''
 url_poster: ''
 url_project: ''

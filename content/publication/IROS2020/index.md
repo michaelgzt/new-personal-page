@@ -1,12 +1,12 @@
 ---
-title: 'Spiking neural network on neuromorphic hardware for energy-efficient unidimensional SLAM'
+title: 'Reinforcement co-Learning of Deep and Spiking Neural Networks for Energy-Efficient Mapless Navigation with Neuromorphic Hardware'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
   - admin
-  - Arpit Shah
+  - Neelesh Kumar
   - Konstantinos Michmizos
 
 # Author notes (optional)
@@ -14,8 +14,8 @@ authors:
 #   - 'Equal contribution'
 #   - 'Equal contribution'
 
-date: '2019-11-03T00:00:00Z'
-doi: 'https://doi.org/10.1109/IROS40897.2019.8967864'
+date: '2020-10-24T00:00:00Z'
+doi: 'https://doi.org/10.1109/IROS45743.2020.9340948'
 
 # Schedule page publish date (NOT publication's date).
 publishDate: '2017-01-01T00:00:00Z'
@@ -27,10 +27,10 @@ publishDate: '2017-01-01T00:00:00Z'
 publication_types: ['1']
 
 # Publication name and optional abbreviated publication name.
-publication: In *2019 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)*
-publication_short: In *IROS 2019*
+publication: In *2020 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)*
+publication_short: In *IROS 2020*
 
-abstract: Energy-efficient simultaneous localization and mapping (SLAM) is crucial for mobile robots exploring unknown environments. The mammalian brain solves SLAM via a network of specialized neurons, exhibiting asynchronous computations and event-based communications, with very low energy consumption. We propose a brain-inspired spiking neural network (SNN) architecture that solves the unidimensional SLAM by introducing spike-based reference frame transformation, visual likelihood computation, and Bayesian inference. We integrated our neuromorphic algorithm to Intel's Loihi neuromorphic processor, a non-Von Neumann hardware that mimics the brain's computing paradigms. We performed comparative analyses for accuracy and energy-efficiency between our neuromorphic approach and the GMapping algorithm, which is widely used in small environments. Our Loihi-based SNN architecture consumes 100 times less energy than GMapping run on a CPU while having comparable accuracy in head direction localization and map-generation. These results pave the way for scaling our approach towards active-SLAM alternative solutions for Loihi-controlled autonomous robots.
+abstract: Energy-efficient mapless navigation is crucial for mobile robots as they explore unknown environments with limited on-board resources. Although the recent deep rein-forcement learning (DRL) approaches have been successfully applied to navigation, their high energy consumption limits their use in several robotic applications. Here, we propose a neuromorphic approach that combines the energy-efficiency of spiking neural networks with the optimality of DRL and benchmark it in learning control policies for mapless navigation. Our hybrid framework, spiking deep deterministic policy gradient (SDDPG), consists of a spiking actor network (SAN) and a deep critic network, where the two networks were trained jointly using gradient descent. The co-learning enabled synergistic information exchange between the two networks, allowing them to overcome each other's limitations through a shared representation learning. To evaluate our approach, we deployed the trained SAN on Intel's Loihi neuromorphic processor. When validated on simulated and real-world complex environments, our method on Loihi consumed 75 times less energy per inference as compared to DDPG on Jetson TX2, and also exhibited a higher rate of successful navigation to the goal, which ranged from 1% to 4.2% and depended on the forward-propagation timestep size. These results reinforce our ongoing efforts to design brain-inspired algorithms for controlling autonomous robots with neuromorphic hardware.
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -45,8 +45,8 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://arxiv.org/pdf/1903.02504.pdf'
-url_code: ''
+url_pdf: 'https://arxiv.org/pdf/2003.01157.pdf'
+url_code: 'https://github.com/combra-lab/spiking-ddpg-mapless-navigation'
 url_dataset: ''
 url_poster: ''
 url_project: ''

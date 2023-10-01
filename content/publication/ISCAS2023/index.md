@@ -1,21 +1,27 @@
 ---
-title: 'Spiking neural network on neuromorphic hardware for energy-efficient unidimensional SLAM'
+title: 'Open the box of digital neuromorphic processor: Towards effective algorithm-hardware co-design'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
   - admin
-  - Arpit Shah
-  - Konstantinos Michmizos
+  - Ali Safa
+  - Kevin Shidqi
+  - Paul Detterer
+  - Stefano Traferro
+  - Mario Konijnenburg
+  - Manolis Sifalakis
+  - Gert-Jan van Schaik
+  - Amirreza Yousefzadeh
 
 # Author notes (optional)
 # author_notes:
 #   - 'Equal contribution'
 #   - 'Equal contribution'
 
-date: '2019-11-03T00:00:00Z'
-doi: 'https://doi.org/10.1109/IROS40897.2019.8967864'
+date: '2023-03-27T00:00:00Z'
+doi: 'https://doi.org/10.1109/ISCAS46773.2023.10181505'
 
 # Schedule page publish date (NOT publication's date).
 publishDate: '2017-01-01T00:00:00Z'
@@ -27,10 +33,10 @@ publishDate: '2017-01-01T00:00:00Z'
 publication_types: ['1']
 
 # Publication name and optional abbreviated publication name.
-publication: In *2019 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)*
-publication_short: In *IROS 2019*
+publication: In *2023 IEEE International Symposium on Circuits and Systems (ISCAS)*
+publication_short: In *ISCAS 2023*
 
-abstract: Energy-efficient simultaneous localization and mapping (SLAM) is crucial for mobile robots exploring unknown environments. The mammalian brain solves SLAM via a network of specialized neurons, exhibiting asynchronous computations and event-based communications, with very low energy consumption. We propose a brain-inspired spiking neural network (SNN) architecture that solves the unidimensional SLAM by introducing spike-based reference frame transformation, visual likelihood computation, and Bayesian inference. We integrated our neuromorphic algorithm to Intel's Loihi neuromorphic processor, a non-Von Neumann hardware that mimics the brain's computing paradigms. We performed comparative analyses for accuracy and energy-efficiency between our neuromorphic approach and the GMapping algorithm, which is widely used in small environments. Our Loihi-based SNN architecture consumes 100 times less energy than GMapping run on a CPU while having comparable accuracy in head direction localization and map-generation. These results pave the way for scaling our approach towards active-SLAM alternative solutions for Loihi-controlled autonomous robots.
+abstract: Sparse and event-driven spiking neural network (SNN) algorithms are the ideal candidate solution for energy-efficient edge computing. Yet, with the growing complexity of SNN algorithms, it isn't easy to properly benchmark and optimize their computational cost without hardware in the loop. Although digital neuromorphic processors have been widely adopted to benchmark SNN algorithms, their black-box nature is problematic for algorithm-hardware co-optimization. In this work, we open the black box of the digital neuromorphic processor for algorithm designers by presenting the neuron processing instruction set and detailed energy consumption of the SENeCA neuromorphic architecture. For convenient benchmarking and optimization, we provide the energy cost of the essential neuromorphic components in SENeCA, including neuron models and learning rules. Moreover, we exploit the SENeCA's hierarchical memory and exhibit an advantage over existing neuromorphic processors. We show the energy efficiency of SNN algorithms for video processing and online learning, and demonstrate the potential of our work for optimizing algorithm designs. Overall, we present a practical approach to enable algorithm designers to accurately benchmark SNN algorithms and pave the way towards effective algorithm-hardware co-design.
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -45,7 +51,7 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://arxiv.org/pdf/1903.02504.pdf'
+url_pdf: 'https://arxiv.org/pdf/2303.15224.pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''
