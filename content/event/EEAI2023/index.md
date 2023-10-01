@@ -1,24 +1,24 @@
 ---
-title: Talk at NCN2023
+title: Talk at EEAI2023
 
-event: Neuromorphic Computing in the Netherlands Workshop (NCN2023)
-event_url: https://www.rug.nl/research/fse/cognitive-systems-and-materials/news/events/ncn2023/
+event: European Conference on EDGE AI Technologies and Applications (EEAI2023)
+event_url: https://edge-ai-tech.eu/
 
-location: University of Groningen
+location: Royal Olympic Hotel
 address:
-  street: Grote Markt 21
-  city: Groningen
-  postcode: '9712 HC'
-  country: The Netherlands
+  street: 28-34 Ath. Diakou Str.
+  city: Athens
+  postcode: '11743'
+  country: Greece
 
-summary: I will give a talk on the SENECA neuromorphic processor in the Neuromorphic Computing in the Netherlands Workshop (NCN2023).
-abstract: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam.'
+summary: I will participate and give a talk on the SENECA neuromorphic processor in the European Conference on EDGE AI Technologies and Applications (EEAI2023).
+abstract: 'The lack of flexibility in most neuromorphic architecture designs results in significant performance loss and inefficient memory usage when mapping various neural network algorithms. We present SENECA, a digital neuromorphic architecture that balances the trade-offs between flexibility and efficiency using a hierarchical-controlling system. A SENECA core contains two controllers: a flexible RISC-V-based controller and an optimized controller (Loop Buffer). This flexible computational pipeline allows for deploying efficient mapping for various neural networks, on-device learning, and pre-post processing algorithms. The hierarchical-controlling system introduced in SENECA makes it one of the most efficient neuromorphic processors for event-driven neural network processing. In this talk, I will present the components of event-based neural network processing on SENECA, including detailed design space explorations and the optimized event-driven depth-first convolution. Further, I will present the benchmarking results on SENECA compared with state-of-the-art neuromorphic solutions and discuss how the research can benefit the future evolution of neuromorphic computing.'
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: '2023-10-02T16:30:00Z'
-date_end: '2023-10-02T16:45:00Z'
-all_day: false
+date: '2023-10-17T8:00:00Z'
+date_end: '2023-10-19T17:00:00Z'
+all_day: true
 
 # Schedule page publish date (NOT talk date).
 publishDate: '2017-01-01T00:00:00Z'
