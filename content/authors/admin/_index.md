@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Guangzhi Tang 唐广智
+title: Guangzhi Tang
 
 # Full name (for SEO)
 first_name: Guangzhi
@@ -10,7 +10,7 @@ last_name: Tang
 superuser: true
 
 # Role/position/tagline
-role: Researcher of Neuromorphic Computing
+role: Researcher
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -47,22 +47,16 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: '/#contact'
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
-    label: Follow me on Twitter
-    display:
-      header: true
+    link: mailto:guangzhi.tang@outlook.com
   - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: fas
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+    link: https://scholar.google.com/citations?user=0RTieCUAAAAJ&hl=en
   - icon: github
     icon_pack: fab
-    link: https://github.com/gcushen
+    link: https://github.com/michaelgzt
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/
+    link: https://www.linkedin.com/in/guangzhi-tang-389459a0/
 
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
@@ -78,8 +72,6 @@ email: ''
 highlight_name: true
 ---
 
-Alice Bighetti is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Guangzhi Tang is a researcher at imec, located in the High Tech Campus of Eindhoven, the Netherlands. As a core Hardware Efficient AI team member at imec developing the SENECA neuromorphic processor, his current research focuses on neuromorphic and hardware-aware algorithm designs. Guangzhi has an extensive research experience in neuromorphic computing and its applications in real-world robotics problems. Within his works, he's keen to explore answers to the links between digital and brain computing, including how to benefit digital computing with the knowledge of the brain, and how to understand the brain better with models interacting with complex real-world environments.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
-
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+Before joining imec, Guangzhi completed his PhD at Rutgers University in the United States. During his PhD, he built the bridge between robotics and the brain, where robotics can provide real-world interactions and intelligent applications as testbeds for brain modeling, and the brain can inspire robust and efficient solutions for robotic problems. He has developed Brain-inspired Spiking Neural Networks (SNN) solving a wide spectrum of robotics problems on neuromorphic processors with robustness, efficiency, and adaptivity. 
