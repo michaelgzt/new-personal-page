@@ -1,24 +1,23 @@
 ---
-title: Example Talk
+title: Talk at NCN2023
 
-event: Wowchemy Conference
-event_url: https://example.org
+event: Neuromorphic Computing in the Netherlands Workshop (NCN2023)
+event_url: https://www.rug.nl/research/fse/cognitive-systems-and-materials/news/events/ncn2023/
 
-location: Wowchemy HQ
+location: University of Groningen
 address:
-  street: 450 Serra Mall
-  city: Stanford
-  region: CA
-  postcode: '94305'
-  country: United States
+  street: Grote Markt 21
+  city: Groningen
+  postcode: '9712 HC'
+  country: The Netherlands
 
-summary: An example talk using Wowchemy's Markdown slides feature.
+summary: I will give a talk on the SENECA neuromorphic processor in the Neuromorphic Computing in the Netherlands Workshop (NCN2023).
 abstract: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam.'
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: '2030-06-01T13:00:00Z'
-date_end: '2030-06-01T15:00:00Z'
+date: '2023-10-02T16:30:00Z'
+date_end: '2023-10-02T16:45:00Z'
 all_day: false
 
 # Schedule page publish date (NOT talk date).
@@ -60,7 +59,7 @@ projects:
   - example
 ---
 
-{{% callout note %}}
+<!-- {{% callout note %}}
 Click on the **Slides** button above to view the built-in slides feature.
 {{% /callout %}}
 
@@ -70,4 +69,4 @@ Slides can be added in a few ways:
 - **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
 - **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://wowchemy.com/docs/writing-markdown-latex/).
 
-Further event details, including [page elements](https://wowchemy.com/docs/writing-markdown-latex/) such as image galleries, can be added to the body of this page.
+Further event details, including [page elements](https://wowchemy.com/docs/writing-markdown-latex/) such as image galleries, can be added to the body of this page. -->
