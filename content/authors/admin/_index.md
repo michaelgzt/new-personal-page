@@ -1,43 +1,44 @@
 ---
 # Display name
-title: Alice Bighetti 吳恩達
+title: Guangzhi Tang 唐广智
 
 # Full name (for SEO)
-first_name: Alice
-last_name: Bighetti
+first_name: Guangzhi
+last_name: Tang
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: Researcher of Neuromorphic Computing
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+  - name: imec the Netherlands
+    url: https://www.imec-int.com/en/the-netherlands
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include neuromorphic and brain-inspired AI and their applications in real-world problems.
 
 # Interests to show in About widget
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Neuromorphic Computing
+  - Brain-inspired Computing
+  - Robotics
+  - EdgeAI
 
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+    - course: PhD in Computer Science
+      institution: Rutgers, the State Univerisity of New Jersey
+      year: 2022
+    - course: MSc in Computer Science
+      institution: Rutgers, the State Univerisity of New Jersey
+      year: 2017
+    - course: BSc in Computer Science
+      institution: Nanjing University
+      year: 2015
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
