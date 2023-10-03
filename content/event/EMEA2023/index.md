@@ -39,7 +39,7 @@ featured: false
 #     name: Follow
 #     url: https://twitter.com/georgecushen
 url_code: ''
-url_pdf: 'https://cms.tinyml.org/wp-content/uploads/ew2023/Guangzhi-Tang_final.pdf'
+url_pdf: uploads/emea2023.pdf
 url_slides: ''
 url_video: ''
 
