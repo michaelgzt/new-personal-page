@@ -10,22 +10,23 @@ last_name: Tang
 superuser: true
 
 # Role/position/tagline
-role: Researcher
+role: Assistant Professor
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: imec the Netherlands
-    url: https://www.imec-int.com/en/the-netherlands
+  - name: DACS, Maastricht University
+    url: https://www.maastrichtuniversity.nl/research/department-advanced-computing-sciences
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include neuromorphic and brain-inspired AI and their applications in real-world problems.
+bio: Edge AI, Robotics, Neuromorphic Computing, and AI-enabled Automation
 
 # Interests to show in About widget
 interests:
+  - Edge AI
+  - Robotics
   - Neuromorphic Computing
   - Brain-inspired Computing
-  - Robotics
-  - EdgeAI
+  - AI-enabled Automation
 
 # Education to show in About widget
 education:
@@ -47,7 +48,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: mailto:guangzhi.tang@outlook.com
+    link: mailto:guangzhi.tang@maastrichtuniversity.nl
   - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: fas
     link: https://scholar.google.com/citations?user=0RTieCUAAAAJ&hl=en
@@ -72,6 +73,6 @@ email: ''
 highlight_name: true
 ---
 
-Guangzhi Tang is a researcher at imec, based in Eindhoven, the Netherlands. As a core member at imec advancing the SENECA neuromorphic processor, his current research focuses on neuromorphic and hardware-aware algorithm designs. Guangzhi has an extensive research experience in neuromorphic and brain-inspired computing, reinforcement learning, and their applications in real-world robotics problems.
+I am an Assistant Professor in the Department of Advanced Computing Sciences at Maastricht University. My research in Edge AI and Neuromorphic Computing develops cost-effective, brain-inspired computing paradigms to tackle the high expenses of modern AI systems. I also have extensive research and industry experience in hardware-aware optimization and reinforcement learning, focusing on practical applications in edge computing and robotics.
 
-Before joining imec, Guangzhi completed his PhD at Rutgers University in the United States, advised by Dr. Konstantinos Michmizos. During his PhD, he built the bridge between robotics and the brain, where robotics can provide real-world interactions and intelligent applications as testbeds for brain modeling, and the brain can inspire robust and efficient solutions for robotic problems. He has developed brain-inspired Spiking Neural Networks (SNN) solving a wide spectrum of robotics problems on neuromorphic processors with robustness, efficiency, and adaptivity.
+Before joining academia, I was a researcher at imec, the world-leading research & innovation center for nanoelectronics and digital technologies. I was a core member at imec advancing the SENECA neuromorphic processor, event-based neural networks, and the corresponding software. I completed my PhD at Rutgers University in the United States, advised by Dr. Konstantinos Michmizos. During my PhD, I bridged robotics and brain science by developing robust, efficient, and adaptive brain-inspired Spiking Neural Networks (SNNs) that address a wide spectrum of robotics challenges on neuromorphic processors.
