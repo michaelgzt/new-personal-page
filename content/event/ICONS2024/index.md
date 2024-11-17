@@ -1,17 +1,17 @@
 ---
-title: Talk at ICONS2024
+title: 'Talk at ICONS2024'
 
-event: International Conference on Neuromorphic Systems 2024 (ICONS2024)
-event_url: https://iconsneuromorphic.cc/
+event: 'International Conference on Neuromorphic Systems 2024 (ICONS2024)'
+event_url: 'https://iconsneuromorphic.cc/'
 
-location: George Mason University
+location: 'George Mason University'
 address:
-  street: 4400 University Dr
-  city: Arlington
+  street: '4400 University Dr'
+  city: 'Arlington'
   postcode: '22030'
-  country: United States
+  country: 'United States'
 
-summary: I gave a talk on our neuromorphic hard attention framework TRIP for efficient event-based vision at ICONS 2024.
+summary: 'I gave a talk on our neuromorphic hard attention framework TRIP for efficient event-based vision at ICONS 2024.'
 abstract: 'Neuromorphic processors are well-suited for efficiently handling sparse events from event-based cameras. However, they face significant challenges in the growth of computing demand and hardware costs as the input resolution increases. This paper proposes the Trainable Region-of-Interest Prediction (TRIP), the first hardware-efficient hard attention framework for event-based vision processing on a neuromorphic processor. Our TRIP framework actively produces low-resolution Region-of-Interest (ROIs) for efficient and accurate classification. The framework exploits sparse events' inherent low information density to reduce the overhead of ROI prediction. We introduced extensive hardware-aware optimizations for TRIP and implemented the hardware-optimized algorithm on the SENECA neuromorphic processor. We utilized multiple event-based classification datasets for evaluation. Our approach achieves state-of-the-art accuracies in all datasets and produces reasonable ROIs with varying locations and sizes. On the DvsGesture dataset, our solution requires 46x less computation than the state-of-the-art while achieving higher accuracy. Furthermore, TRIP enables more than 2x latency and energy improvements on the SENECA neuromorphic processor compared to the conventional solution.'
 
 # Talk start and end times.
