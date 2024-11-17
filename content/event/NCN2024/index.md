@@ -5,11 +5,11 @@ event: Neuromorphic Computing in the Netherlands Workshop (NCN2024)
 event_url: https://sites.google.com/view/ncn2024
 
 location: Eindhoven University of Technology
-# address:
-#   street: 
-#   city: Eindhoven
-#   postcode: ''
-#   country: Netherlands
+address:
+  street: Eindhoven University of Technology
+  city: Eindhoven
+  postcode: '5612 AZ'
+  country: Netherlands
 
 summary: I presented two posters on energy efficient event-based visual processing and neuromorphic computing at NCN 2024.
 abstract: 'Modern AI systems are prohibitively unsustainable. Inspired by our brains, neuromorphic computing promises low-latency and energyefficient neural network processing. Yet, current neuromorphic solutions still struggle to rival conventional deep learning accelerators’ performance and area efficiency in practical applications. In this encore abstract, we present our published work [8] on explorations of optimizing sparse event-based neural network inference on SENECA, a scalable and flexible neuromorphic architecture. We introduce the event-driven depth-first convolution to increase area efficiency and latency in convolutional neural networks (CNNs) on the neuromorphic processor. We benchmarked our optimized solution on sensor fusion, digit recognition, and high-resolution object detection tasks, and showed significant improvements in energy, latency, and area, compared with other state-ofthe-art large-scale neuromorphic processors. To extend our published results, we performed energy-efficient event-based optical flow prediction using our proposed methods on the neuromorphic processor. The extension study shows that sparsely activated artificial neural networks can achieve the same level of efficiency as spiking neural networks.'
