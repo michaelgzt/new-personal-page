@@ -51,7 +51,7 @@ social:
     link: mailto:guangzhi.tang@maastrichtuniversity.nl
   - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: fas
-    link: https://scholar.google.com/citations?user=0RTieCUAAAAJ&hl=en
+    link: https://scholar.google.com/citations?hl=en&user=0RTieCUAAAAJ&view_op=list_works&sortby=pubdate
   - icon: github
     icon_pack: fab
     link: https://github.com/michaelgzt
