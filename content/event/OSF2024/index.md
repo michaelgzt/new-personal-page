@@ -11,7 +11,7 @@ address:
   postcode: '6211 LM'
   country: Netherlands
 
-summary: I orginized a session at OSF2024 on Open Neuromorphic Computing for a Democratic Future of Sustainable Artificial Intelligence.
+summary: I organized a session at OSF2024 on Open Neuromorphic Computing for a Democratic Future of Sustainable Artificial Intelligence.
 abstract: 'The exponentially growing operational costs of modern AI systems are unsustainable in terms of energy and infrastructure requirements in the Netherlands. Neuromorphic computing with brain-inspired computing paradigms shows promise for extremely low-energy computing, thereby providing a greener and more sustainable AI solution.
 
 However, the microelectronic and hardware technology origins of neuromorphic computing create obstacles between pursuing open science and protecting intellectual property. This not only limits the reproducibility and fair comparison within the field, but also decelerates the research advancements with limited access to state-of-the-art neuromorphic hardware. Recent international collaborations in neuromorphic computing have started to transform the field to open hardware, software, and benchmarking. For example, the NeuroBench initiative targets to develop open benchmarks for neuromorphic algorithms and hardware that can fairly compare different neuromorphic solutions with reproducible results. Moreover, the Open Neuromorphic Community promoting open-sourced neuromorphic software and hardware designs and implementations has gradually gained more and more traction.
