@@ -5,11 +5,11 @@ event: National Open Science Festival (OSF2024)
 event_url: https://opensciencefestival.nl/en/programme/open-neuromorphic-computing-for-a-democratic-future-of-sustainable-artificial-intelligence
 
 location: Maastricht University
-address:
-#  street: 
-  city: Maastricht
-#  postcode: 
-  country: Netherlands
+# address:
+# #  street: 
+#   city: Maastricht
+# #  postcode: 
+#   country: Netherlands
 
 summary: I orginized a session at OSF2024 on Open Neuromorphic Computing for a Democratic Future of Sustainable Artificial Intelligence.
 abstract: 'The exponentially growing operational costs of modern AI systems are unsustainable in terms of energy and infrastructure requirements in the Netherlands. Neuromorphic computing with brain-inspired computing paradigms shows promise for extremely low-energy computing, thereby providing a greener and more sustainable AI solution.
