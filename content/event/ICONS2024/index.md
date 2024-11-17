@@ -7,7 +7,7 @@ event_url: https://iconsneuromorphic.cc/
 location: George Mason University
 address:
   street: 4400 University Dr
-  city: Arlington, Virginia
+  city: Arlington
   postcode: '22030'
   country: United States
 

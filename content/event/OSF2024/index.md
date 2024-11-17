@@ -4,7 +4,7 @@ title: Organizing a session at OSF2024
 event: National Open Science Festival (OSF2024)
 event_url: https://opensciencefestival.nl/en/programme/open-neuromorphic-computing-for-a-democratic-future-of-sustainable-artificial-intelligence
 
-location: School of Business and Economics, Maastricht University
+location: School of Business and Economics Maastricht University
 address:
   street: Tongersestraat 53
   city: Maastricht
